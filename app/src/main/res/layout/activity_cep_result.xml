@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações do CEP"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewLogradouro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logradouro: Rua Cardeal Stepinac"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bairro: Cidade Nova"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewLocalidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localidade: Belo Horizonte"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewUF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UF: MG"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewIBGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IBGE: 3106200"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewDDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DDD: 31"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/buttonNovaPesquisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nova Pesquisa"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

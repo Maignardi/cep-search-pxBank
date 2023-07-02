@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search_cep">
+
+    <fragment
+        android:id="@+id/navigation_search_cep"
+        android:name="com.example.cep_app_android.ui.searchCep.SearchCepFragment"
+        android:label="@string/search_cep"
+        tools:layout="@layout/fragment_search_cep" />
+
+    <fragment
+        android:id="@+id/navigation_send_cep"
+        android:name="com.example.cep_app_android.ui.sendCep.SendCepFragment"
+        android:label="@string/sendCep"
+        tools:layout="@layout/fragment_send_cep" />
+
+
+</navigation>
